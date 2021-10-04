@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle=""
+	galleryWidth="90%"
+	galleryHeight="90%"
+	showOpenButton="FALSE"
+	showExpandButton="FALSE"
+	showThumbsButton="FALSE"
+	
+>
+
+  <image imageURL="images/store/silvic0.jpg"  linkURL="images/store/silvic0.jpg" linkTarget="_blank">
+		<title></title>	
+  </image>
+  
+  <image imageURL="images/store/silvic3.jpg"  linkURL="images/store/silvic3.jpg" linkTarget="_blank">
+		<title></title>	
+  </image>
+  
+  <image imageURL="images/store/silvic2.jpg"  linkURL="images/store/silvic2.jpg" linkTarget="_blank">
+		<title></title>	
+  </image>
+  
+  <image imageURL="images/store/silvic1.jpg"  linkURL="images/store/silvic1.jpg" linkTarget="_blank">
+		<title></title>	
+  </image>
+  
+  <image imageURL="images/store/silvic4.jpg"  linkURL="images/store/silvic5.jpg" linkTarget="_blank">
+		<title></title>	
+  </image>
+  
+  <image imageURL="images/store/silvic5.jpg"  linkURL="images/store/silvic5.jpg" linkTarget="_blank">
+		<title></title>	
+  </image>
+  
+ 
+</juiceboxgallery>
