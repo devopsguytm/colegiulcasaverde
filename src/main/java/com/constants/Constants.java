@@ -3,8 +3,8 @@ package com.constants;
 public class Constants {
 
 	public static String cloudantDB= "colegiul_casa_verde";
-	public static String cloudantURL= "https://40f49618-e45a-45d8-9110-1d264e6e2766-bluemix.cloudant.com";
-	public static String cloudantUsername= "40f49618-e45a-45d8-9110-1d264e6e2766-bluemix";
-	public static String cloudantPassword= "fc5d08660956c8ada867c0aaf7d237eb3ad76d89d3bd87b34fa110a011080c39";
+	public static String cloudantURL= "https://32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix.cloudant.com";
+	public static String cloudantUsername= "32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix";
+	public static String cloudantPassword= "13e5fcc099819e3c44eea5839ea20048d98ab27776fc9b3a936d5af729402e88";
 
 }
