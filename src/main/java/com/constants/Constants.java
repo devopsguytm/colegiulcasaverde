@@ -2,9 +2,9 @@ package com.constants;
 
 public class Constants {
 
-	public static String cloudantDB= "colegiul_casa_verde";
-	public static String cloudantURL= "https://32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix.cloudant.com";
-	public static String cloudantUsername= "32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix";
-	public static String cloudantPassword= "13e5fcc099819e3c44eea5839ea20048d98ab27776fc9b3a936d5af729402e88";
+	public static String cloudantDB_news= "colegiul_casa_verde";
+	public static String cloudantDB_users= "users";
+	public static String cloudantURL= "https://85938404-760c-41fb-b190-c9b3488bd4c6-bluemix.cloudantnosqldb.appdomain.cloud";
+	public static String cloudantIAMApiKey= "FtYBN-2PyQrhy0ZaK4O5gKx-2RpTNMNxYh9CqtdAAvIf";
 
 }

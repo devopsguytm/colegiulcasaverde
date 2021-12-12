@@ -7,7 +7,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.util.List;
 import com.cloudant.client.api.*;
-
+import com.constants.Constants;
 @ManagedBean(name="getLatestNews")
 @SessionScoped
 
@@ -39,11 +39,11 @@ public class GetLatestNews implements Serializable{
     
 	  {
 			try {	
-				CloudantClient client = ClientBuilder.url(new URL("https://32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix.cloudant.com"))
-		                .username("32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix")
-		                .password("13e5fcc099819e3c44eea5839ea20048d98ab27776fc9b3a936d5af729402e88")
-		                .build();
-				
+				CloudantClient client = ClientBuilder.url(new URL(Constants.cloudantURL))
+				.iamApiKey(Constants.cloudantIAMApiKey)        
+		        .build();
+							
+		        
 				System.out.println("Server Version: " + client.serverVersion());
 				
 				List<String> databases = client.getAllDbs();
@@ -53,7 +53,7 @@ public class GetLatestNews implements Serializable{
 				    System.out.println();
 				}
 				
-				db = client.database("colegiul_casa_verde", false);
+				db = client.database(Constants.cloudantDB_news, false);
 				
 				getNewsFromDB();
 				

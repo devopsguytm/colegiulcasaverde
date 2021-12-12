@@ -89,9 +89,10 @@ public class SetLatestNews implements Serializable {
 	{
 		try {
 			CloudantClient client = ClientBuilder.url(new URL(Constants.cloudantURL))
-					.username(Constants.cloudantUsername).password(Constants.cloudantPassword).build();
+					.iamApiKey(Constants.cloudantIAMApiKey)
+					.build();
 
-			db = client.database(Constants.cloudantDB, false);
+			db = client.database(Constants.cloudantDB_news, false);
 
 			getNewsFromDB();
 
